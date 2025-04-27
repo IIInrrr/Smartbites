@@ -14,7 +14,7 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
-  background-color: #f9f9f9;
+  background-color: #ffffff;
 }
 
 header {
@@ -24,7 +24,7 @@ header {
   position: sticky;
   top: 0;
   z-index: 1000;
-  background: #2ecc71;
+  background-color: #ACDF4C;
   background-size: cover;
   background-position: center;
   padding: 15px 30px;
@@ -44,26 +44,24 @@ header {
 .logo {
   font-size: 28px;
   font-weight: bold;
-  color: white;
+  color: #dee5d5;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   z-index: 1000;
 }
 .log {
-  position: fixed; 
-  top: 10px; 
-  left: 185px; 
-  width: 65px; 
-  height: auto; 
-  z-index: 1000; 
-  transition: transform 0.3s ease, filter 0.3s ease; 
+  position: fixed;
+  top: 10px;
+  left: 185px;
+  width: 65px;
+  height: auto;
+  z-index: 1000;
+  transition: transform 0.3s ease, filter 0.3s ease;
 }
 
 .log:hover {
-  transform: scale(1.1); 
-  filter: drop-shadow(
-    0px 0px 10px rgba(0, 255, 0, 0.5)
-  ); 
-  filter: drop-shadow(0px 0px 10px rgba(0, 255, 0, 0.7));
+  transform: scale(1.1);
+  filter: drop-shadow(0px 0px 10px rgba(7, 235, 7, 0.37));
+  filter: drop-shadow(0px 0px 10px rgba(12, 119, 12, 0.7));
 }
 
 nav ul {
@@ -80,18 +78,18 @@ nav ul li {
 }
 
 nav ul li a {
-  color: white;
+  color: #fbfbf8;
   text-decoration: none;
   font-size: 18px;
   transition: color 0.3s ease, text-decoration 0.3s ease;
 }
 nav ul li a:hover {
-  color: #b2ff59; /* Light green hover effect */
+  color: #6F913D; /* Light green hover effect */
   text-decoration: underline;
 }
 .btn {
-  background: white;
-  color: #2ecc71;
+  background: #f9f9f8;
+  color: #6F913D;
   padding: 8px 15px;
   border-radius: 5px;
   font-weight: bold;
@@ -99,10 +97,10 @@ nav ul li a:hover {
 }
 .btn:hover {
   transform: scale(1.1);
-  background: #e0f7da;
+  background: #415e17;
 }
 .hero {
-  background: #2ecc71;
+  background: #ACDF4C;
   color: white;
   padding: 80px 20px;
 }
@@ -129,7 +127,7 @@ nav ul li a:hover {
 
 .feature {
   width: 250px;
-  background: #e0f7da;
+  background: #ACDF4C;
   padding: 20px;
   border-radius: 10px;
 }
@@ -139,7 +137,7 @@ nav ul li a:hover {
 }
 #team {
   padding: 50px 20px;
-  background: #e0f7da;
+  background: #FFF9CC;
 }
 
 .team-grid {
@@ -166,6 +164,7 @@ nav ul li a:hover {
 }
 
 .team-member h3 {
+  color: #6F913D;
   margin: 10px 0 5px;
   font-size: 20px;
 }
@@ -183,7 +182,7 @@ nav ul li a:hover {
 
 .work-process h1 {
   font-size: 32px;
-  color: #2ecc71;
+  color: #6F913D;
 }
 
 .process-step {
@@ -213,7 +212,7 @@ nav ul li a:hover {
 
 .content h2 {
   font-size: 24px;
-  color: #2ecc71;
+  color: #6F913D;
 }
 
 #blog {
@@ -225,7 +224,7 @@ nav ul li a:hover {
 #blog h2,
 #testimonials h2 {
   font-size: 32px;
-  color: #2ecc71;
+  color: #6F913D;
   margin-bottom: 20px;
 }
 
@@ -253,7 +252,7 @@ nav ul li a:hover {
 
 .blog-post h3 {
   font-size: 20px;
-  color: #2ecc71;
+  color: #6F913D;
   margin-bottom: 5px;
 }
 
@@ -264,7 +263,7 @@ nav ul li a:hover {
 
 .blog-post .btn {
   display: inline-block;
-  background: #2ecc71;
+  background: #6F913D;
   color: white;
   padding: 10px 15px;
   border-radius: 5px;
@@ -275,7 +274,7 @@ nav ul li a:hover {
 #testimonials {
   text-align: center;
   padding: 50px 20px;
-  background: #f9f9f9;
+  background: #FFF9CC;
 }
 
 h2 {
@@ -310,7 +309,7 @@ h2 {
 
 .testimonial h4 {
   margin-top: 10px;
-  color: #2ecc71;
+  color: #6F913D;
 }
 
 .testimonial span {
@@ -318,18 +317,23 @@ h2 {
 }
 
 .swiper-pagination-bullet {
-  background: #2ecc71;
+  background: #6F913D;
 }
 
 #faq-support {
   text-align: center;
   padding: 50px 20px;
-  background: #f9f9f9;
+  background: #FFF9CC;
 }
 
-h2,
+.dw{
+  color: #f7f7f2;
+}
+.fq{
+  color:#000
+}
 h3 {
-  color: #2ecc71;
+  color: #1c1c19;
 }
 
 .faq-container {
@@ -345,8 +349,8 @@ h3 {
 .faq-question {
   width: 100%;
   padding: 10px;
-  background: #2ecc71;
-  color: white;
+  background: #6F913D;
+  color: rgb(12, 12, 12);
   border: none;
   font-size: 16px;
   cursor: pointer;
@@ -388,7 +392,7 @@ textarea {
 }
 
 button {
-  background: #2ecc71;
+  background: #6F913D;
   color: white;
   padding: 10px 15px;
   border: none;
@@ -404,7 +408,7 @@ button:hover {
 #download {
   text-align: center;
   padding: 50px 20px;
-  background: #2ecc71;
+  background: #ACDF4C;
   color: white;
 }
 
@@ -421,7 +425,7 @@ button:hover {
   gap: 10px;
   font-size: 18px;
   background: white;
-  color: #2ecc71;
+  color: #ACDF4C;
   padding: 10px 15px;
   border-radius: 5px;
   text-decoration: none;
@@ -470,7 +474,7 @@ footer {
 
   .icon {
     font-size: 40px;
-    color: #6c5ce7;
+    color: #ff746e;
     transition: transform 0.3s ease, color 0.3s ease;
   }
 
